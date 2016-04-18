@@ -639,9 +639,7 @@ Button 111
 	Down 174 423
 	OutIn 6 4
 End
-Scancode 37
-	Map 37 111
-End
+
 
 Button 112
 	Type 3
@@ -650,10 +648,6 @@ Button 112
 	Down 211 396
 	OutIn 6 8
 End
-Scancode 38
-	Map 38 112
-End
-
 Button 113
 	Type 3
 	Size 32 32
@@ -661,9 +655,7 @@ Button 113
 	Down 247 423
 	OutIn 6 1
 End
-Scancode 39
-	Map 39 113
-End
+
 
 Button 114
 	Type 3
@@ -672,10 +664,6 @@ Button 114
 	Down 211 452
 	OutIn 6 2
 End
-Scancode 40
-	Map 40 114
-End
-
 
 
 
@@ -969,19 +957,19 @@ Scancode 36
 End
 
 Scancode 37
-   Map 37 112
+   Map 37 111
 End
 
 Scancode 38
-   Map 38 113
+   Map 38 112
 End
 
 Scancode 39
-   Map 39 110
+   Map 39 113
 End
 
 Scancode 40
-   Map 40 111
+   Map 40 114
 End
 
 Scancode 46
