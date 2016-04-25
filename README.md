@@ -1,4 +1,4 @@
-### Anmodern HP-50G skin
+### A modern HP-50G skin
 
 The existing HP-50G emulator skins are starting to look very dated. So I designed a modern flat interface, improved the keybindings, increased the screen size, changed its the screen's ugly green colour, and now it's my favourite mathematical tool.
 
