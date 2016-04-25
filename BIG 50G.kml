@@ -11,158 +11,73 @@ End
 
 Background
 	Offset 0 0
-	Size 608 589
+	Size 893 590
 End
 
 Lcd
 	Zoom 4
-        Offset  43  18
-	Color  0 168 192 176
-	Color  1 168 192 176
-	Color  2 168 192 176
-	Color  3 168 192 176
-	Color  4 168 192 176
-	Color  5 155 177 163
-	Color  6 140 160 147
-	Color  7 127 145 133
-	Color  8 113 129 119
-	Color  9  98 112 103
-	Color 10  85  97  89
-	Color 11  72  82  75
-	Color 12  56  64  59
-	Color 13  43  49  45
-	Color 14  29  34  31
-	Color 15  14  16  15
-	Color 16   0   0   0 
-	Color 17   0   0   0
-	Color 18   0   0   0
-	Color 19   0   0   0
-	Color 20   0   0   0
-	Color 21   0   0   0
-	Color 22   0   0   0
-	Color 23   0   0   0
-	Color 24   0   0   0
-	Color 25   0   0   0
-	Color 26   0   0   0
-	Color 27   0   0   0
-	Color 28   0   0   0
-	Color 29   0   0   0
-	Color 30   0   0   0
-	Color 31   0   0   0
-
-	Color 48 168 192 176 
-	Color 49 155 177 163
-	Color 50 140 160 147
-	Color 51 127 145 133
-	Color 52 113 129 119
-	Color 53  98 112 103
-	Color 54  85  97  89
-	Color 55  72  82  75
-	Color 56  56  64  59 
-	Color 57  43  49  45
-	Color 58  29  34  31
-	Color 59  14  16  15
-	Color 60   0   0   0
-	Color 61   0   0   0
-	Color 62   0   0   0
-	Color 63   0   0   0
-End
-
-Annunciator 1
-        Size 17 12
-	Offset 59 5
-        Down 2 592
-End
-
-Annunciator 2
-        Size 17 12
-	Offset 137 5
-        Down 21 592
-End
-
-Annunciator 3
-	Size 16 12
-	Offset 215 5
-        Down 38 592
-End
-
-Annunciator 4
-        Size 18 12
-	Offset 293 5
-        Down 55 592
-End
-
-Annunciator 5
-        Size 16 12
-	Offset 371 5
-        Down 74 592
-End
-
-Annunciator 6
-        Size 16 12
-	Offset 449 5
-        Down 91 592
+   Offset  4  4
+	Color  0 187 187 187 # background color 444 in hex
 End
 
 
+# screen buttons, same as function buttons
 
 
 
+
+# function buttons
 
 Button 11
 	Type 3
-	Size  38 22
-	Offset  14 361
+	Size  84 61
+	Offset  4 329
 	OutIn 5 1
 End
 
 Button 12
 	Type 3
-	Size  38 22
-	Offset 63 361
+	Size  84 61
+	Offset 92 329
 	OutIn 5 2
 End
 
 Button 13
 	Type 3
-	Size  38 22
-	Offset 112 361
-	Down 112 360
+	Size  84 61
+	Offset 180 329
 	OutIn 5 4
 End
 
 Button 14
 	Type 3
-	Size  38 22
-	Offset 162 361
-	Down 162 360
+	Size  84 61
+	Offset 268 329
 	OutIn 5 8
 End
 
 Button 15
 	Type 3
-	Size  38 22
-	Offset 212 361
-	Down 212 360
+	Size  84 61
+	Offset 356 329
 	OutIn 5 16
 End
 
 
 Button 16
 	Type 3
-	Size  38 22
-	Offset 261 361
-	Down 261 360
+	Size  84 61
+	Offset 444 329
 	OutIn 5 32
 End
 
 
+# 
+
 Button 21
 	Type 3
-	Size 36 25
-	Offset 14 404
-	Down 14 403
-	OutIn 5 128
+	Size 68 62
+	Offset 568 4
 End
 
 
