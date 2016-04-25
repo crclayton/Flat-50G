@@ -9,7 +9,7 @@
 
 #screen{
   font-family:arial;
-  background-color:#555;
+  background-color:#454545;
 }
 
 #shortcuts td{
@@ -42,7 +42,7 @@
 }
 
 .rightshift{
-  background-color:#B0B0B0 !important;
+  background-color:#d5d5d5 !important;
   color:#1A1A1A !important;
   font-size: 12px !important;
 }
@@ -68,7 +68,7 @@
 }
 
 .button .left {
-  color: #B0B0B0;
+  color: #CCC;
   position: absolute;
   left: 0;
 }
