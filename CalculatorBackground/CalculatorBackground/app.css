@@ -1,0 +1,70 @@
+﻿td {
+  width: 60px;
+  height: 45px;
+}
+
+.function{
+    width:70px;
+}
+
+#screen{
+  font-family:arial;
+  background-color:#666;
+}
+
+.button {
+  background-color: #1A1A1A;
+  border-radius: 3px;
+  padding: 1px;
+  position: relative;
+}
+
+.leftshift{
+  background-color:#C02F1D !important;
+  color:#1A1A1A !important;
+  font-size: 24px !important;
+}
+
+.rightshift{
+  background-color:#B0B0B0 !important;
+  color:#1A1A1A !important;
+  font-size: 24px !important;
+}
+
+
+.button .main {
+  font-size: 16px;
+  font-family: arial;
+  height: 50px;
+  
+  color: #fff;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.button .sub {
+  font-size:9px;
+  font-family: arial;
+  padding: 3px;
+}
+
+.button .left {
+  color: #B0B0B0;
+  position: absolute;
+  left: 0;
+}
+
+.button .right {
+  color: #C01F1D;
+  position: absolute;
+  right: 0;
+    bottom: 0
+
+}
+
+.button .alpha {
+  color: #EBC944;
+  position: absolute;
+  right: 0;
+}
