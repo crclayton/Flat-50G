@@ -1,10 +1,10 @@
 ﻿td {
-  width: 60px;
-  height: 45px;
+  width: 34px;
+  padding:0px;
 }
 
 .function{
-    width:70px;
+    width:42px;
 }
 
 #screen{
@@ -14,28 +14,27 @@
 
 .button {
   background-color: #1A1A1A;
-  border-radius: 3px;
-  padding: 1px;
+  border-radius: 2px;
   position: relative;
 }
 
 .leftshift{
   background-color:#C02F1D !important;
   color:#1A1A1A !important;
-  font-size: 24px !important;
+  font-size: 12px !important;
 }
 
 .rightshift{
   background-color:#B0B0B0 !important;
   color:#1A1A1A !important;
-  font-size: 24px !important;
+  font-size: 12px !important;
 }
 
 
 .button .main {
-  font-size: 16px;
+  font-size: 8px;
   font-family: arial;
-  height: 50px;
+  height: 26.5px;
   
   color: #fff;
   text-align: center;
@@ -44,9 +43,9 @@
 }
 
 .button .sub {
-  font-size:9px;
+  font-size:5px;
   font-family: arial;
-  padding: 3px;
+  padding: 1px;
 }
 
 .button .left {
