@@ -10,3 +10,9 @@ C:\Users\charl\Source\Repos\HP-50G-KML\CalculatorBackground\CalculatorBackground
 C:\Users\charl\Source\Repos\HP-50G-KML\CalculatorBackground\CalculatorBackground\obj\Debug\CalculatorBackground.csprojResolveAssemblyReference.cache
 C:\Users\charl\Source\Repos\HP-50G-KML\CalculatorBackground\CalculatorBackground\obj\Debug\CalculatorBackground.dll
 C:\Users\charl\Source\Repos\HP-50G-KML\CalculatorBackground\CalculatorBackground\obj\Debug\CalculatorBackground.pdb
+C:\Users\charl\OneDrive\Favorites\Documents\School\HP-50g\HP-50G-KML\CalculatorBackground\CalculatorBackground\bin\CalculatorBackground.dll.config
+C:\Users\charl\OneDrive\Favorites\Documents\School\HP-50g\HP-50G-KML\CalculatorBackground\CalculatorBackground\bin\CalculatorBackground.dll
+C:\Users\charl\OneDrive\Favorites\Documents\School\HP-50g\HP-50G-KML\CalculatorBackground\CalculatorBackground\bin\CalculatorBackground.pdb
+C:\Users\charl\OneDrive\Favorites\Documents\School\HP-50g\HP-50G-KML\CalculatorBackground\CalculatorBackground\obj\Debug\CalculatorBackground.csprojResolveAssemblyReference.cache
+C:\Users\charl\OneDrive\Favorites\Documents\School\HP-50g\HP-50G-KML\CalculatorBackground\CalculatorBackground\obj\Debug\CalculatorBackground.dll
+C:\Users\charl\OneDrive\Favorites\Documents\School\HP-50g\HP-50G-KML\CalculatorBackground\CalculatorBackground\obj\Debug\CalculatorBackground.pdb

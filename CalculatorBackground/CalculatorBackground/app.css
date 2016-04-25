@@ -9,13 +9,21 @@
 
 #screen{
   font-family:arial;
-  background-color:#454545;
+  background-color:rgb(160,160,160);
+}
+
+#shortcuts{
+    width: 100%;
 }
 
 #shortcuts td{
         text-align:left;
-          font-size:5px;
+        font-size:5px;
 
+}
+
+#shortcuts th{
+    font-size:7px;
 }
 
 #shortcuts td:nth-child(even){
@@ -71,18 +79,20 @@
   color: #CCC;
   position: absolute;
   left: 0;
+  margin-left:0.5px;
 }
 
 .button .right {
-  color: #C01F1D;
+  color: rgb(230,80,51);
   position: absolute;
   right: 0;
-    bottom: 0
-
+  bottom: 0;
+  margin-right:0.5px;
 }
 
 .button .alpha {
   color: #EBC944;
   position: absolute;
   right: 0;
+  margin-right:0.5px;
 }
