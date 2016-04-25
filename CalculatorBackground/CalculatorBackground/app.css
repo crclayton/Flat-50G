@@ -12,6 +12,21 @@
   background-color:#666;
 }
 
+#shortcuts td{
+        text-align:left;
+          font-size:5px;
+
+}
+
+#shortcuts td:nth-child(even){
+    font-weight:bold;
+}
+
+#shortcuts td:nth-child(odd){
+    font-size:6px;
+}
+
+
 .button {
   background-color: #1A1A1A;
   border-radius: 2px;
@@ -32,7 +47,7 @@
 
 
 .button .main {
-  font-size: 8px;
+  font-size: 9px;
   font-family: arial;
   height: 26.5px;
   
@@ -43,7 +58,7 @@
 }
 
 .button .sub {
-  font-size:5px;
+  font-size:5.5px;
   font-family: arial;
   padding: 1px;
 }
