@@ -1,7 +1,18 @@
-﻿td {
+﻿:root {
+  --button-main-background: #111111;
+  --button-right-shift:  rgb(210,70,40);
+  --button-left-shift: #BBBBBB;
+  --button-alpha: #FEDE06;
+  --calculator-background: #F7F7F7;
+}
+
+
+td {
   width: 34px;
   padding:0px;
 }
+
+
 
 .function{
     width:42px;
@@ -9,7 +20,7 @@
 
 #screen{
   font-family:arial;
-  background-color:rgb(160,160,160);
+  background-color:var(--calculator-background);
 }
 
 #shortcuts{
@@ -36,22 +47,34 @@
 
 
 .button {
-  background-color: #1A1A1A;
-  border-radius: 2px;
+  background-color: var(--button-main-background);
+  border-radius: 1px;
   position: relative;
     text-align:center;
 
 }
 
+.alphashift{
+  background-color:var(--button-alpha) !important;
+}
+
+.alphashift .main{
+    color:var(--button-main-background) !important;
+}
+
+.alphashift .left{
+    color:var(--button-left-shift) !important;
+}
+
 .leftshift{
-  background-color:#C02F1D !important;
-  color:#1A1A1A !important;
+  background-color:var(--button-right-shift) !important;
+  color:var(--button-main-background) !important;
   font-size: 12px !important;
 }
 
 .rightshift{
-  background-color:#d5d5d5 !important;
-  color:#1A1A1A !important;
+  background-color:var(--button-left-shift) !important;
+  color:var(--button-main-background) !important;
   font-size: 12px !important;
 }
 
@@ -76,14 +99,14 @@
 }
 
 .button .left {
-  color: #CCC;
+  color: var(--button-left-shift);
   position: absolute;
   left: 0;
   margin-left:0.5px;
 }
 
 .button .right {
-  color: rgb(230,80,51);
+  color: var(--button-right-shift);
   position: absolute;
   right: 0;
   bottom: 0;
@@ -91,7 +114,7 @@
 }
 
 .button .alpha {
-  color: #EBC944;
+  color: var(--button-alpha);
   position: absolute;
   right: 0;
   margin-right:0.5px;
