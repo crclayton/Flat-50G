@@ -1,0 +1,769 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="app.css" type="text/css"/>
+</head>
+
+<style>
+    .button .main {
+        height: 27px;
+    }
+
+</style>
+
+<body>
+<table class="screen tall" style="margin-bottom:  -2px;">
+    <tr style="height: 110px;">
+         
+    </tr>
+    <tr>
+        <td>
+            <div class="button function">
+                <div class="sub left">
+                    Y=
+                </div>
+                <div class="sub alpha">
+                    A
+                </div>
+                <div class="main">
+                    F1
+                </div>
+            </div>
+        </td>
+        <td>
+            <div class="button function">
+                <div class="sub left">
+                    WIN
+                </div>
+                <div class="sub alpha">
+                    B
+                </div>
+                <div class="main">
+                    F2
+                </div>
+            </div>
+        </td>
+        <td>
+            <div class="button function">
+                <div class="sub left">
+                    GRAPH
+                </div>
+                <div class="sub alpha">
+                    C
+                </div>
+                <div class="main">
+                    F3
+                </div>
+            </div>
+        </td>
+        <td>
+            <div class="button function">
+                <div class="sub left">
+                    2D/3D
+                </div>
+                <div class="sub alpha">
+                    D
+                </div>
+                <div class="main">
+                    F4
+                </div>
+            </div>
+        </td>
+        <td>
+            <div class="button function">
+                <div class="sub left">
+                    TBLSET
+                </div>
+                <div class="sub alpha">
+                    E
+                </div>
+                <div class="main">
+                    F5
+                </div>
+            </div>
+        </td>
+        <td>
+            <div class="button function">
+                <div class="sub left">
+                    TABLE
+                </div>
+                <div class="sub alpha">
+                    F
+                </div>
+                <div class="main">
+                    F6
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<table class="screen tall">
+<tr>
+
+    <td>
+        <div class="button">
+            <div class="sub left">
+                FILES
+            </div>
+            <div class="sub right">
+                BEGIN
+            </div>
+            <div class="sub alpha">
+                G
+            </div>
+            <div class="main">
+                APPS
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                CUSTOM
+            </div>
+            <div class="sub right">
+                END
+            </div>
+            <div class="sub alpha">
+                H
+            </div>
+            <div class="main">
+                MODE
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                i
+            </div>
+            <div class="sub right">
+                |
+            </div>
+            <div class="sub alpha">
+                I
+            </div>
+            <div class="main">
+                TOOL
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="main">
+                &#9664;
+            </div>
+        </div>
+    </td>
+
+    <td>
+        <div class="button">
+            <div class="main">
+                &#x25B2;
+            </div>
+        </div>
+    </td>
+</tr>
+
+<tr>
+
+    <td>
+        <div class="button">
+            <div class="sub left">
+                UPDIR
+            </div>
+            <div class="sub right">
+                COPY
+            </div>
+            <div class="sub alpha">
+                J
+            </div>
+            <div class="main">
+                VAR
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                RECALL
+            </div>
+            <div class="sub right">
+                CUT
+            </div>
+            <div class="sub alpha">
+                K
+            </div>
+            <div class="main">
+                STO&#9656;
+            </div>
+        </div>
+    </td>
+    <td>
+    <div class="button">
+        <div class="sub left">
+            PREV
+        </div>
+        <div class="sub right">
+            PASTE
+        </div>
+        <div class="sub alpha">
+            L
+        </div>
+        <div class="main">
+            NEXT
+        </div>
+    </div>
+    <td>
+        <div class="button">
+            <div class="main">
+                &#9654;
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="main">
+                &#x25BC;
+            </div>
+        </div>
+    </td>
+</tr>
+
+<tr>
+
+    <td>
+        <div class="button">
+            <div class="sub left">
+                CMD
+            </div>
+            <div class="sub right">
+                UNDO
+            </div>
+            <div class="sub alpha">
+                M
+            </div>
+            <div class="main">
+                HIST
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                PRG
+            </div>
+            <div class="sub right">
+                CHARS
+            </div>
+            <div class="sub alpha">
+                N
+            </div>
+            <div class="main">
+                EVAL
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                MTRW
+            </div>
+            <div class="sub right">
+                EQW
+            </div>
+            <div class="sub alpha">
+                O
+            </div>
+            <div class="main">
+                &lsquo; &rsquo;
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                MTH
+            </div>
+            <div class="sub right">
+                CAT
+            </div>
+            <div class="sub alpha">
+                P
+            </div>
+            <div class="main">
+                SYMB
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                DEL
+            </div>
+            <div class="sub right">
+                CLEAR
+            </div>
+            <div class="sub alpha">
+
+            </div>
+            <div class="main" style="font-size: 13px;">
+                &larr;
+            </div>
+        </div>
+    </td>
+</tr>
+<tr>
+
+    <td>
+        <div class="button">
+            <div class="sub left">
+                e<sup>x</sup>
+            </div>
+            <div class="sub right">
+                LN
+            </div>
+            <div class="sub alpha">
+                Q
+            </div>
+            <div class="main">
+                Y<sup>x</sup>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                x<sup>2</sup>
+            </div>
+            <div class="sub right">
+                <sup>x</sup>&radic;Y
+            </div>
+            <div class="sub alpha">
+                R
+            </div>
+            <div class="main">
+                &radic;X
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                ASIN
+            </div>
+            <div class="sub right">
+                &Sigma;
+            </div>
+            <div class="sub alpha">
+                S
+            </div>
+            <div class="main">
+                SIN
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                ACOS
+            </div>
+            <div class="sub right">
+                &delta;
+            </div>
+            <div class="sub alpha">
+                T
+            </div>
+            <div class="main">
+                COS
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                ATAN
+            </div>
+            <div class="sub right">
+                &int;
+            </div>
+            <div class="sub alpha">
+                U
+            </div>
+            <div class="main">
+                TAN
+            </div>
+        </div>
+    </td>
+</tr>
+<tr>
+
+    <td>
+        <div class="button">
+            <div class="sub left">
+                10<sup>x</sup>
+            </div>
+            <div class="sub right">
+                LOG
+            </div>
+            <div class="sub alpha">
+                V
+            </div>
+            <div class="main">
+                EEX
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                &ne;
+            </div>
+            <div class="sub right">
+                =
+            </div>
+            <div class="sub alpha">
+                W
+            </div>
+            <div class="main">
+                +/&minus;
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                &le;
+            </div>
+            <div class="sub right">
+                &lt;
+            </div>
+            <div class="sub alpha">
+                X
+            </div>
+            <div class="main">
+                X
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                &ge;
+            </div>
+            <div class="sub right">
+                &gt;
+            </div>
+            <div class="sub alpha">
+                Y
+            </div>
+            <div class="main">
+                1/X
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                ABS
+            </div>
+            <div class="sub right">
+                ARG
+            </div>
+            <div class="sub alpha">
+                Z
+            </div>
+            <div class="main" style="font-size: 13px;">
+                &divide;
+            </div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <div class="button alphashift">
+            <div class="sub left user">
+                USER
+            </div>
+            <div class="sub right">
+                ENTRY
+            </div>
+            <div class="sub alpha">
+
+            </div>
+            <div class="main">
+                ALPHA
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                SYM SLV
+            </div>
+            <div class="sub right">
+                NUM SLV
+            </div>
+            <div class="sub alpha">
+
+            </div>
+            <div class="main">
+                7
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                EXP/LN
+            </div>
+            <div class="sub right">
+                TRIG
+            </div>
+            <div class="sub alpha">
+            </div>
+            <div class="main">
+                8
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                FINANCE
+            </div>
+            <div class="sub right">
+                TIME
+            </div>
+            <div class="sub alpha">
+            </div>
+            <div class="main">
+                9
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                [ ]
+            </div>
+            <div class="sub right">
+                " "
+            </div>
+
+            <div class="main" style="font-size: 13px;">
+                &times;
+            </div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <div class="button rightshift">
+            <div class="main rightshift">
+                &#8689;
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                CALC
+            </div>
+            <div class="sub right">
+                ALG
+            </div>
+            <div class="sub alpha">
+
+            </div>
+            <div class="main">
+                4
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                MATRICES
+            </div>
+            <div class="sub right">
+                STAT
+            </div>
+            <div class="sub alpha">
+            </div>
+            <div class="main">
+                5
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                CONVERT
+            </div>
+            <div class="sub right">
+                UNITS
+            </div>
+            <div class="sub alpha">
+            </div>
+            <div class="main">
+                6
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                ( )
+            </div>
+            <div class="sub right">
+                _
+            </div>
+            <div class="sub alpha">
+
+            </div>
+            <div class="main" style="font-size: 13px;">
+                &minus;
+            </div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <div class="button leftshift">
+            <div class="main leftshift">
+                &#8690;
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                ARITH
+            </div>
+            <div class="sub right">
+                CMPLX
+            </div>
+            <div class="main">
+                1
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                DEF
+            </div>
+            <div class="sub right">
+                LIB
+            </div>
+            <div class="main">
+                2
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                #
+            </div>
+            <div class="sub right">
+                BASE
+            </div>
+            <div class="main">
+                3
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                { }
+            </div>
+            <div class="sub right">
+                &laquo;&raquo;
+            </div>
+            <div class="main" style="font-size: 13px;">
+                &plus;
+            </div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                CONT
+            </div>
+            <div class="sub right">
+                OFF
+            </div>
+            <div class="main">
+                ON
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left" style="font-size: 10px; margin-top: -3px; padding-top: -1px;">
+                &infin;
+            </div>
+            <div class="sub right">
+                &rarr;
+            </div>
+
+            <div class="main">
+                0
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                : :
+            </div>
+            <div class="sub right" style="font-size: 10px; margin-bottom: -2px; padding-top: -1px;">
+                &crarr;
+            </div>
+            <div class="main">
+                &#8226;
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                &pi;
+            </div>
+            <div class="sub right" style="font-size: 10px; margin-bottom: -0px; padding-top: -1px;">
+                ,
+            </div>
+            <div class="main">
+                SPC
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="button">
+            <div class="sub left">
+                ANS
+            </div>
+            <div class="sub right">
+                &#9656;NUM
+            </div>
+            <div class="main" style="font-size: 8.5px;">
+                ENTER
+            </div>
+        </div>
+    </td>
+</tr>
+
+</table>
+
+
+
+</body>
+</html>

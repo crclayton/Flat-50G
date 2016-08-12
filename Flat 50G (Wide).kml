@@ -1,11 +1,11 @@
 Global
 	Print "By Charles Clayton"
-	Title  "Flat HP-50G by Charles Clayton"
+	Title  "Flat HP-50G (Wide)"
 	Author "Charles Clayton"
 	Model  "Q"
 	Class  50
 	Rom    "ROM.50G"
-	Bitmap "Flat 50G.bmp"
+	Bitmap "Flat 50G (Wide).bmp"
 	Debug  0
 End
 

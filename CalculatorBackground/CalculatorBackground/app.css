@@ -1,6 +1,6 @@
 ﻿:root {
   --button-main-background: #000;
-  --button-right-shift:  rgb(200,70,40);
+  --button-right-shift:  rgb(210,70,40);
   --button-left-shift: #BBBBBB;
   --button-alpha: #FEDE06;
   --calculator-background: #DFDFDF;
@@ -12,43 +12,49 @@ td {
   padding:0px;
 }
 
+.tall {
+    width: 200px;
+}
 
-
-.function{
+wide.function{
     width:42px;
 }
 
-#screen{
+tall.function {
+    
+}
+
+.screen{
   font-family:arial;
   background-color:var(--calculator-background);
 }
 
-#shortcuts{
+.shortcuts{
     width: 100%;
 }
 
-#shortcuts td{
+.shortcuts td{
         text-align:left;
         font-size:5px;
-
+        vertical-align: middle;
 }
 
-#shortcuts th{
+.shortcuts th{
     font-size:7px;
 }
 
-#shortcuts td:nth-child(even){
+.shortcuts td:nth-child(even){
     font-weight:bold;
 }
 
-#shortcuts td:nth-child(odd){
-    font-size:6px;
+.shortcuts td:nth-child(odd){
+    font-size:5px;
 }
 
 
 .button {
   background-color: var(--button-main-background);
-  border-radius: 2px;
+  border-radius: 1.5px;
   position: relative;
     text-align:center;
 
@@ -63,7 +69,7 @@ td {
 }
 
 .alphashift .left{
-    color:var(--button-left-shift) !important;
+    color:var(--button-left-shift);
 }
 
 .leftshift{
@@ -118,4 +124,9 @@ td {
   position: absolute;
   right: 0;
   margin-right:0.5px;
+}
+
+
+.user {
+    color: #808080 !important; /* tag on alpha button can be different colour to improve visiblity */
 }
