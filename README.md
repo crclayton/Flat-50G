@@ -10,4 +10,4 @@ To use, start the Emu48.exe emulator. When prompted for a KML script, go to the 
 
 ### Tall
 
-<img src="/Images/Long Screenshot.png" style="width:50px">
+<img src="/Images/Long Screenshot.png" width="200">
