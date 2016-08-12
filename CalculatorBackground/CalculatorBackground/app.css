@@ -6,6 +6,9 @@
   --calculator-background: #DFDFDF;
 }
 
+body {
+    margin: 0px;
+}
 
 td {
   width: 34px;
@@ -13,16 +16,16 @@ td {
 }
 
 .tall {
-    width: 200px;
+    width: 202px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
-wide.function{
-    width:42px;
+
+.wide .function{
+    width:41px;
 }
 
-tall.function {
-    
-}
 
 .screen{
   font-family:arial;
@@ -31,6 +34,7 @@ tall.function {
 
 .shortcuts{
     width: 100%;
+
 }
 
 .shortcuts td{
@@ -40,25 +44,18 @@ tall.function {
 }
 
 .shortcuts th{
-    font-size:7px;
+    font-size:9px;
 }
 
 .shortcuts td:nth-child(even){
     font-weight:bold;
+    font-size: 5.5px;
 }
 
 .shortcuts td:nth-child(odd){
-    font-size:5px;
+    font-size:6.5px;
 }
 
-
-.button {
-  background-color: var(--button-main-background);
-  border-radius: 1.5px;
-  position: relative;
-    text-align:center;
-
-}
 
 .alphashift{
   background-color:var(--button-alpha) !important;
@@ -84,11 +81,27 @@ tall.function {
   font-size: 12px !important;
 }
 
+.button {
+  background-color: var(--button-main-background);
+  border-radius: 2px;
+  position: relative;
+  text-align:center;
+
+  margin-top: 0.5px;
+  margin-bottom: 0.5px;
+
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+    padding-left: 0.5px;
+    padding-right: 1px;
+    margin-left: 1px;
+}
 
 .button .main {
   font-size: 9px;
   font-family: arial;
-  height: 26.5px;
+  height: 29px;
   
   color: #fff;
   display: table-cell;

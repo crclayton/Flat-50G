@@ -28,3 +28,9 @@ C:\Users\Charles Clayton\Downloads\Flat-50G-master\Flat-50G-master\CalculatorBac
 C:\Users\Charles Clayton\Downloads\Flat-50G-master\Flat-50G-master\CalculatorBackground\CalculatorBackground\obj\Debug\CalculatorBackground.csprojResolveAssemblyReference.cache
 C:\Users\Charles Clayton\Downloads\Flat-50G-master\Flat-50G-master\CalculatorBackground\CalculatorBackground\obj\Debug\CalculatorBackground.dll
 C:\Users\Charles Clayton\Downloads\Flat-50G-master\Flat-50G-master\CalculatorBackground\CalculatorBackground\obj\Debug\CalculatorBackground.pdb
+C:\Users\Charles Clayton\OneDrive\Documents\Visual Studio 2015\Projects\Flat-50G\CalculatorBackground\CalculatorBackground\bin\CalculatorBackground.dll.config
+C:\Users\Charles Clayton\OneDrive\Documents\Visual Studio 2015\Projects\Flat-50G\CalculatorBackground\CalculatorBackground\bin\CalculatorBackground.dll
+C:\Users\Charles Clayton\OneDrive\Documents\Visual Studio 2015\Projects\Flat-50G\CalculatorBackground\CalculatorBackground\bin\CalculatorBackground.pdb
+C:\Users\Charles Clayton\OneDrive\Documents\Visual Studio 2015\Projects\Flat-50G\CalculatorBackground\CalculatorBackground\obj\Debug\CalculatorBackground.csprojResolveAssemblyReference.cache
+C:\Users\Charles Clayton\OneDrive\Documents\Visual Studio 2015\Projects\Flat-50G\CalculatorBackground\CalculatorBackground\obj\Debug\CalculatorBackground.dll
+C:\Users\Charles Clayton\OneDrive\Documents\Visual Studio 2015\Projects\Flat-50G\CalculatorBackground\CalculatorBackground\obj\Debug\CalculatorBackground.pdb
