@@ -1,9 +1,9 @@
 ﻿:root {
-  --button-main-background: #111111;
+  --button-main-background: #000;
   --button-right-shift:  rgb(200,70,40);
   --button-left-shift: #BBBBBB;
   --button-alpha: #FEDE06;
-  --calculator-background: #F7F7F7;
+  --calculator-background: #DFDFDF;
 }
 
 
@@ -48,7 +48,7 @@ td {
 
 .button {
   background-color: var(--button-main-background);
-  border-radius: 1px;
+  border-radius: 2px;
   position: relative;
     text-align:center;
 

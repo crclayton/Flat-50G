@@ -17,7 +17,7 @@ End
 Lcd
 	Zoom 4
    Offset  4  4
-	Color  0 160 160 160 # background color, matches image
+	Color  0 223 223 223 # background color, matches image
 End
 
 
