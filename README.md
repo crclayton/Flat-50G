@@ -6,8 +6,6 @@ The existing HP-50G emulator skins are starting to look dated, so I made a new o
 
 Start the Emu48.exe emulator. When prompted for a KML script, go to the folder containing the `Flat 50G (Wide).kml` file then select  `Flat HP-50G (Wide)`. After the emulator opens, you may choose to load my prefered settings by going to `File > Open > settings.E49`. 
 
-For linux systems, the calculator can be run with `Wine`.
-
 ## Screens
 
 ### Wide
@@ -17,3 +15,8 @@ For linux systems, the calculator can be run with `Wine`.
 ### Tall
 
 <img src="/Images/Long Screenshot.png" width="403">
+
+### Running on Linux via `Wine`
+
+<img src="/Images/Linux Screenshot.png">
+
