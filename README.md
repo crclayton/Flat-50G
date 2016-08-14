@@ -4,7 +4,7 @@ The existing HP-50G emulator skins are starting to look dated, so I made a new o
 
 ### How to Use
 
-Start the Emu48.exe emulator. When prompted for a KML script, go to the folder containing the `Flat 50G (Wide).kml` file then select  `Flat HP-50G (Wide)`. After the emulator opens, you may choose to load my prefered settings by going to `File > Open > settings.E49`. 
+Open the `Calculator` folder and run `Emu48.exe`. When prompted for a KML script, select  `Flat HP-50G (Wide)` or `Flat HP-50G (Tall)`. After the emulator opens, you may choose to load my prefered settings by going to `File > Open > settings.E49`. 
 
 ## Screens
 
