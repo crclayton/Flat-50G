@@ -11,12 +11,12 @@ End
 
 Background
 	Offset 0 0
-	Size 400 847
+	Size 399 846
 End
 
 Lcd
 	Zoom 3
-   Offset  3  3
+    Offset  3  3
 	Color  0 223 223 223 # background color, matches image
 End
 
@@ -26,35 +26,35 @@ End
 
 Button 11
 	Type 3
-	Size  64 58
+	Size  63 58
 	Offset  3 245
 	OutIn 5 1
 End
 
 Button 12
 	Type 3
-	Size  64 58
+	Size  63 58
 	Offset 69 245
 	OutIn 5 2
 End
 
 Button 13
 	Type 3
-	Size  64 58
+	Size  63 58
 	Offset 135 245
 	OutIn 5 4
 End
 
 Button 14
 	Type 3
-	Size  64 58
+	Size  63 58
 	Offset 201 245
 	OutIn 5 8
 End
 
 Button 15
 	Type 3
-	Size  64 58
+	Size  63 58
 	Offset 267 245
 	OutIn 5 16
 End
@@ -62,7 +62,7 @@ End
 
 Button 16
 	Type 3
-	Size  64 58
+	Size  63 58
 	Offset 333 245
 	OutIn 5 32
 End
