@@ -11,7 +11,7 @@ body {
 }
 
 td {
-  width: 34px;
+  width: 33px;
   padding:0px;
 }
 
@@ -23,7 +23,7 @@ td {
 
 
 .wide .function{
-    width:42px;
+    width:41px;
 }
 
 
@@ -87,14 +87,13 @@ td {
   position: relative;
   text-align:center;
 
-    margin: 1px;
-    padding: 0px;
-}
+    margin: 0.75px;
+  }
 
 .button .main {
   font-size: 9px;
   font-family: arial;
-  height: 30px;
+  height: 29px;
   
   color: #fff;
   display: table-cell;
