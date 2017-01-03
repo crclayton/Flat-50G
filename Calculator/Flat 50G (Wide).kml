@@ -4,7 +4,7 @@ Global
 	Author "Charles Clayton"
 	Model  "Q"
 	Class  50
-	Rom    "ROM.50G"
+	Rom    "2.15.ROM"
 	Bitmap "Flat 50G (Wide).bmp"
 	Debug  0
 End

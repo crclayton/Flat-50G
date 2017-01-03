@@ -4,21 +4,27 @@ Global
 	Author "Charles Clayton"
 	Model  "Q"
 	Class  50
-	Rom    "ROM.50G"
+	Rom    "2.15.ROM"
 	Bitmap "Flat 50G (Tall).bmp"
 	Debug  0
 End
 
+
+
 Background
+    #Vga 1
 	Offset 0 0
 	Size 399 865
+	#Topbar 0 
+    #Menubar 0 
 End
 
 Lcd
 	Zoom 3
     Offset  3  2
-	Color  0 223 223 223 # background color, matches image
+	Color  0 233 233 233 # background color, matches image
 End
+
 
 
 
